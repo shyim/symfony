@@ -15,9 +15,8 @@ namespace Symfony\Component\Routing\Annotation;
 
 class_exists(\Symfony\Component\Routing\Attribute\Route::class);
 
-if (false) {
-    #[\Attribute(\Attribute::IS_REPEATABLE | \Attribute::TARGET_CLASS | \Attribute::TARGET_METHOD)]
-    class Route extends \Symfony\Component\Routing\Attribute\Route
-    {
-    }
+
+#[\Attribute(\Attribute::IS_REPEATABLE | \Attribute::TARGET_CLASS | \Attribute::TARGET_METHOD)]
+class Route extends \Symfony\Component\Routing\Attribute\Route
+{
 }
