@@ -14,6 +14,7 @@ CHANGELOG
  * Add `PdoTagAwareAdapter`
  * Make `AbstractAdapter::createSystemCache()` skip APCu when OPcache is enabled and the cache directory is writable
  * Set `ItemInterface::METADATA_SAVE_FAILED` in the `$metadata` argument of `get()` when the computed value could not be saved
+ * Add `ZstdMarshaller` to compress values using the `zstd` extension
 
 8.0
 ---
